@@ -1,0 +1,9 @@
+.flexContainer {
+  display: flex;
+}
+.flexItem {
+  width: 200px;
+  background-color: red;
+
+  text-align: center;
+}
