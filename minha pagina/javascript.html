@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CSS | Worldpédias</title>
+      <script src="./assets/script/voltar.js"></script>
+      <link rel="stylesheet" href="./assets/css/normalize.css">
+      <link rel="stylesheet" href="./assets/css/reset.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./assets/css/grid.css">
+      <link rel="stylesheet" href="./assets/css/container.css">
+      <link rel="stylesheet" href="./assets/css/cabecalho.css">
+      <link rel="stylesheet" href="./assets/css/logo.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu__lista.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu__item.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu__link.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-titulo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-paragrafo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-link.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-subtitulo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-caixa.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-codigo.css">
+      <link rel="stylesheet" href="./assets/css/link--laranja.css">
+      <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+      <link rel="stylesheet" href="./assets/css/rodape/rodape-paragrafo.css">
+      <link rel="stylesheet" href="./assets/css/relacionados.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-titulo.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-menu.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-lista.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-item.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-link.css">
+      <link rel="stylesheet" href="./assets/css/caixa.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-lista.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-item.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-img.css">
+   </head>
+   <body>
+      <header class="cabecalho">
+         <img src="./assets/img/logos/logo.svg" alt="logo da Worldpédias" class="logo">
+         <nav class="menu">
+            <ul class="menu__lista">
+               <li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+               <li class="menu__item"><a onclick="voltar()" class="menu__link">voltar</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main class="container">
+         <section class="conteudo caixa">
+            <h1 class="conteudo__titulo">JavaScript</h1>
+
+            <p class="conteudo__paragrafo">Houve um tempo em que a internet era uma coisa estática, chata e sem vida. Em seus primórdios, a World Wide Web era apenas um grande aglomerado de páginas <a href="htmlll.html" class="conteudo__link link--laranja">HTML</a> com links que apontavam uns para os outros e nada mais. Com o passar dos anos, as necessidades de quem navegava na internet foram ficando cada vez mais complexas e exigiam uma forma mais avançada das páginas web interagirem com os navegadores e seus usuários.</p>
+
+            <p class="conteudo__paragrafo">Hoje, a realidade é completamente diferente. A internet não é mais composta por meros documentos <a href="htmlll.html" class="conteudo__link link--laranja">HTML</a> com um punhado de texto e imagens, mas sim por aplicações completas e funcionais que facilitam enormemente o dia-a-dia de todos. E tudo isso graças ao surgimento de uma certa tecnologia que está presente em nossa vida digital, mesmo que sequer nos demos conta disso: o JavaScript.</p>
+
+            <p class="conteudo__paragrafo">Essa linguagem de programação não foi projetada para rodar em servidores (como linguagens mais tradicionais), mas no navegador do usuário. Ignorada por alguns e subestimada por outros (houve um tempo em que ela foi considerada uma "linguagem de brinquedo"), atualmente não há um site sequer que não a use e os incríveis avanços da WWW (aplicações ricas, atualização dinâmica de conteúdo, etc) seriam impossíveis sem ela.</p>
+
+            <h2 class="conteudo__subtitulo">O que é JavaScript?</h2>
+
+            <p class="conteudo__paragrafo">JavaScript é uma linguagem de programação criada em 1995 por Brendan Eich enquanto trabalhava na Netscape Communications Corporation. Originalmente projetada para rodar no Netscape Navigator, ela tinha o propósito de oferecer aos desenvolvedores formas de tornar determinados processos de páginas web mais dinâmicos, tornando seu uso mais agradável. Um ano depois de seu lançamento, a Microsoft portou a linguagem para seu navegador, o que ajudou a consolidar a linguagem e torná-la uma das tecnologias mais importantes e utilizadas na internet.</p>
+
+            <p class="conteudo__paragrafo">Embora ela tenha esse nome, não se deve confundir JavaScript com Java, linguagem de programação desenvolvida pela Sun Microsystems: antes, a linguagem criada pela Netscape recebera nomes como LiveScript e Mocha, mas, para aproveitar o grande sucesso da linguagem da Sun no mercado, os executivos da Netscape resolveram mudar o nome de sua linguagem para o atual. Entretanto, Java e Java Script são completamente diferentes e possuem propósitos diversos.</p>
+
+            <pre class="conteudo__codigo">
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+
+    &lt;body&gt;                    
+    
+        &lt;h1&gt; What Can JavaScript Do?&lt;/h1&gt;
+    
+        &lt;p id="demo"&gt;JavaScript can change HTML content.&lt;/p&gt;
+    
+            &lt;button type="button”
+            onclick="document.getElementById('demo').innerHTNL = "Hello JavaScript!'"&gt;
+        Click Me! &lt;/button&gt;
+    
+    &lt;/body&gt;
+
+&lt;/html&gt;</pre>
+
+            <h2 class="conteudo__subtitulo">Como funciona o JavaScript</h2>
+
+            <p class="conteudo__paragrafo">Ao invés de rodar remotamente em servidores na internet, o JavaScript tem como característica rodar programas localmente - do lado do cliente, como se costuma dizer em TI. Assim sendo, o JavaScript fornece às páginas web a possibilidade de programação, transformação e processamento de dados enviados e recebidos, interagindo com a marcação e exibição de conteúdo da linguagem <a href="htmlll.html" class="conteudo__link link--laranja">HTML</a> e com a estilização desse conteúdo proporcionada pelo <a href="css.html" class="conteudo__link link--laranja">CSS</a> nessas páginas.</p>
+
+            <p class="conteudo__paragrafo">Scripts de código escritos nessa linguagem e executados em um navegador permitem, por exemplo, atualizar parte do conteúdo de uma página web sem carregá-la totalmente após preencher um formulário, através de técnicas de programação como o AJAX. Isso permite a criação de uma infinidade de softwares completos e totalmente funcionais para diversas finalidades. O Google Docs jamais funcionaria sem a existência do JavaScript, por exemplo.</p>
+
+            <h2 class="conteudo__subtitulo">JavaScript hoje</h2>
+
+            <p class="conteudo__paragrafo">Com o grande sucesso do JavaScript, tal tecnologia evoluiu para atender às mais diversas demandas que surgiam com a evolução da internet. Atualmente, é possível não apenas desenvolver sites e aplicativos ricos, mas também aplicativos para smartphones e até mesmo programas desktop. Conheça agora algumas tecnologias que surgiram com a evolução do JavaScript.</p>
+
+            <h2 class="conteudo__subtitulo">jQuery</h2>
+
+            <img src="./assets/img/jquery.jpg" alt="logo da JQuery" class="conteudo__img">
+
+            <p class="conteudo__paragrafo">A mais famosa biblioteca JavaScript do mercado fornece uma variação dessa linguagem com uma sintaxe mais amigável, o que simplifica a criação de aplicações. Graças ao jQuery, é possível escrever programas em JavaScript mais facilmente, pois a sintaxe original do JavaScript não é tão fácil de aprender.</p>
+
+            <p class="conteudo__paragrafo">O jQuery se tornou tão popular que, em muitos casos, desenvolvedores substituem totalmente o JavaScript escrito de forma nativa pelo jQuery para criar suas aplicações. Muitos dos componentes dinâmicos que você está vendo nas páginas do Canaltech foram criados graças a esta biblioteca.</p>
+
+            <h2 class="conteudo__subtitulo">Node.js</h2>
+
+            <img src="./assets/img/nodejs.png" alt="Logo da Nodejs" class="conteudo__img">
+
+            <p class="conteudo__paragrafo">Embora originalmente o JavaScript tenha sido projetado para rodar em navegadores, atualmente também é possível executar aplicações escritos nessa linguagem em servidores web graças ao Node.js</p>
+
+            <p class="conteudo__paragrafo">Criado em 2009, o Node.js é um conjunto de ferramentas opensource que permite criar servidores web para execução remota de aplicações JavaScript. Serviços importantes como PayPal, LinkedIn e Groupon usam Node.js para funcionar.</p>
+
+            <p class="conteudo__paragrafo">Graças aos avanços proporcionados pela comunidade de desenvolvedores dessa ferramenta, existem implementações do Node.js até mesmo para dispositivos da chamada Internet das Coisas: o Tessel, computador semelhante ao Arduino, executa aplicações embarcadas rodando em Node.js.</p>
+
+            <h2 class="conteudo__subtitulo">Desenvolvimento mobile</h2>
+
+            <img src="./assets/img/phonegap.png" alt="Logo da PhoneGap" class="conteudo__img">
+
+            <p class="conteudo__paragrafo">O JavaScript já transcendeu os navegadores e agora permite fazer virtualmente qualquer software que se possa imaginar, inclusive aplicativos para smartphones!</p>
+
+            <p class="conteudo__paragrafo">Todos os sistemas operacionais móveis disponíveis no mercado suportam JavaScript, sendo possível construir aplicativos para Android, iOS, Windows Phone. A vantagem aqui é que geralmente é mais fácil desenvolver aplicativos compatíveis com todas as aplicações, ao contrário do desenvolvimento com linguagens nativas, que limita as opções ao SO de origem (Java para Android, Swift para iOS, etc).</p>
+
+            <p class="conteudo__paragrafo">Sencha Touch, PhoneGap, Titanium e outras tecnologias são apenas alguns exemplos de ferramentas que permitem a criação de poderosos aplicativos mobile com mais facilidade e flexibilidade.</p>
+
+            <h2 class="conteudo__subtitulo">Possibilidades</h2>
+
+            <p class="conteudo__paragrafo">Como se pode observar, há muito tempo que o JavaScript se tornou mais do que uma mera linguagem para fazer truques bobos em páginas <a href="htmlll.html" class="conteudo__link link--laranja">HTML</a> e atualmente é praticamente impossível imaginar a internet sem a existência dele. Em conjunto com o <a href="htmlll.html" class="conteudo__link link--laranja">HTML</a> e o <a href="css.html" class="conteudo__link link--laranja">CSS</a>, o JavaScript - bem como suas bibliotecas, dialetos e tecnologias relacionadas - é um dos alicerces fundamentais da web como a conhecemos.</p>
+        </section>
+
+        <section class="relacionados caixa">
+         <div class="relacionado">
+             <h2 class="relacionado__titulo">Conteudos relacionados</h2>
+             <nav class="relacionado__menu">
+                 <ul class="relacionado__lista">
+                     <li class="relacionado__item"><a class="relacionado__link link--laranja" href="htmlll.html">O que é HTML?</a></li>
+                     <li class="relacionado__item"><a class="relacionado__link link--laranja" href="css.html">O que é CSS?</a></li>
+                 </ul>
+             </nav>
+         </div>   
+     </section>
+      </main>
+
+      <footer class="rodape">
+        <p class="rodape__paragrafo"></p>Todos os direitos reservados &copy;2021</p>
+      </footer>
+
+   </body>
+</html>

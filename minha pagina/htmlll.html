@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CSS | Worldpédias</title>
+      <script src="./assets/script/voltar.js"></script>
+      <link rel="stylesheet" href="./assets/css/normalize.css">
+      <link rel="stylesheet" href="./assets/css/reset.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./assets/css/grid.css">
+      <link rel="stylesheet" href="./assets/css/container.css">
+      <link rel="stylesheet" href="./assets/css/cabecalho.css">
+      <link rel="stylesheet" href="./assets/css/logo.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu__lista.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu__item.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu__link.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-titulo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-paragrafo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-link.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-subtitulo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-caixa.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-codigo.css">
+      <link rel="stylesheet" href="./assets/css/link--laranja.css">
+      <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+      <link rel="stylesheet" href="./assets/css/rodape/rodape-paragrafo.css">
+      <link rel="stylesheet" href="./assets/css/relacionados.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-titulo.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-menu.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-lista.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-item.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-link.css">
+      <link rel="stylesheet" href="./assets/css/caixa.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-lista.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-item.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-img.css">
+   </head>
+   <body>
+      <header class="cabecalho">
+         <img src="./assets/img/logos/logo.svg" alt="logo da Worldpédias" class="logo">
+         <nav class="menu">
+            <ul class="menu__lista">
+               <li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+               <li class="menu__item"><a onclick="voltar()" class="menu__link">voltar</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main class="container">
+         <section class="conteudo caixa">
+            <h1 class="conteudo__titulo">HTML</h1>
+            <p class="conteudo__paragrafo">Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto.  O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.</p>
+
+            <p class="conteudo__paragrafo">Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações.</p>
+
+            <p class="conteudo__paragrafo">Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, era comum encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página.</p>
+
+            <p class="conteudo__paragrafo">Imagine então que além do esqueleto, é necessário ter o corpo. Para isso, temos então as linguagens <a href="css.html" class="conteudo__link link--laranja">CSS</a> e o JavaScript, que em conjunto com HTML, formam a base para todos os websites atuais. Veremos mais à frente o que significam essas linguagens.</p>
+
+            <h2 class="conteudo__subtitulo">Como funciona o HTML</h2>
+            <p class="conteudo__paragrafo">Através de um documento HTML, ou seja, um documento com a extensão <strong><em>.html</em></strong> ou <strong><em>.htm.</em></strong>, o navegador faz a leitura do arquivo e renderiza o seu conteúdo para que o usuário final possa visualizá-lo. Os arquivos .html podem ser visualizados em qualquer navegador (como Google Chrome, Safari, ou Mozilla Firefox).</p>
+
+            <p class="conteudo__paragrafo">Geralmente um site é composto por diversas páginas HTML, como por exemplo: um website que contenha três páginas (uma homepage, uma página de contato e uma página de produtos) receberá ao menos três documentos .html distintos, sendo uma para cada página do website.</p>
+
+            <p class="conteudo__paragrafo">O código pode ser escrito através de qualquer editor de texto, como o próprio bloco de notas. Cada página consiste em uma série de tags (também chamados de elementos) que podem ser considerados os blocos de construção das páginas. Portanto, esses blocos são a maneira com a qual o HTML faz a marcação dos conteúdos, criando a hierarquia e a estrutura do mesmo, dividido entre seções, parágrafos, cabeçalhos, e outros.</p>
+
+            <h2 class="conteudo__subtitulo">O que são tags</h2>
+            <p class="conteudo__paragrafo">Através de qualquer editor de texto, como o Sublime Text, o NotePad++ ou até mesmo o bloco de notas, é possível criar um documento com a extensão .html que será renderizado pelos navegadores./p>
+
+            <p class="conteudo__paragrafo">Conforme explicado anteriormente, este documento consiste em uma série de tags. As tags são códigos que definem toda a estrutura da página, tais como o seu tamanho, a fonte da letra, as cores, as quebras de linha e etc. A maioria dos elementos do documento HTML são compostos por uma estrutura de abertura e uma de fachamento, como <strong><em><tag></em></strong> e <strong><em></tag></em></strong>. Há também tags de estrutura única, como a  tag <strong>&lt;br/&gt;</strong> que realiza uma quebra de linha.</p>
+
+            <p class="conteudo__paragrafo">Digamos que você queria escrever um paragrafo, chamamos então a tag <strong>&lt;p&gt;
+            </strong>, escrevemos o paragrafo e finalmente fechamos a tag com <strong>&lt;/p&gt</strong>:</p>
+
+            <div class="conteudo__caixa">
+                <pre class="conteudo__codigo">
+&lt;p&gt;Meu primeiro paragrafo.&lt;/p&gt;</pre>
+            </div>
+
+            <p class="conteudo__paragrafo">Dessa forma, ao salvar o arquivo com a extensão .html e abri-lo em um navegador, você verá o parágrafo escrito na tela do navegador.</p>
+
+            <h2 class="conteudo__subtitulo">Principais tags do HTML</h2>
+            <p class="conteudo__paragrafo">Atualmente existem mais de 140 tags, mas algumas delas quase não são utilizadas. Dentre as mais utilizadas temos:</p>
+
+            <ul class="conteudo__lista">
+                <li class="conteudo__item"><strong>&lt;head&gt;</strong> - local para declarar todas informações, como título e metadados da sua página;</li>
+                <li class="conteudo__item"><strong>&lt;title&gt;</strong> - define o título;</li>
+                <li class="conteudo__item"><strong>&lt;body&gt;</strong> - local para declarar todos os elementos que irão compor o corpo da página;</li>
+                <li class="conteudo__item"><strong>&lt;h1&gt;,&lt;h2&gt;,&lt;h2&gt;, &lt;h4&gt;,&lt;h5&gt;e &lt;h6&gt; </strong> – Tags para definir um título e subtítulos, variando de 1 a 6, sendo h1 o título mais importante e h6 o de menor importância;</li>
+                <li class="conteudo__item"><strong>&lt;p&gt;</strong> - Tag para definir um parágrafo.+;</li>
+                <li class="conteudo__item"><strong>&lt;a&gt;</strong> - Tag de link, junto ao atributo href=”” é responsável pela principal característica da web;</li>
+                <li class="conteudo__item"><strong>&lt;header&gt;</strong> - define um cabeçalho;</li>
+                <li class="conteudo__item"><strong>&lt;section&gt;</strong> - define uma seção;</li>
+                <li class="conteudo__item"><strong>&lt;article&gt;</strong> - define um artigo;</li>
+                <li class="conteudo__item"><strong>&lt;div&gt;</strong> - define uma divisão;</li>
+                <li class="conteudo__item"><strong>&lt;footer&gt;</strong> - define um rodapé;</li>
+                <li class="conteudo__item"><strong>&lt;nav&gt;</strong > - define uma área de navegação (como menus);</li>
+                <li class="conteudo__item"><strong>&lt;table&gt;</strong> - define uma tabela;</li>
+                <li class="conteudo__item"><strong>&lt;ol&gt;</strong> - define uma lista ordenada;</li>
+                <li class="conteudo__item"><strong>&lt;ul&gt;</strong> - define uma lista não ordenada;</li>
+                <li class="conteudo__item"><strong>&lt;li&gt;</strong> - define o item de uma lista;</li>
+                <li class="conteudo__item"><strong>&lt;form&gt;</strong> - define um formulário;</li>
+                <li class="conteudo__item"><strong>&lt;input&gt;</strong> - define um formulário;</li>
+                <li class="conteudo__item"><strong>&lt;textarea&gt;</strong> - define uma área para o usuário digitar um texto;</li>
+                <li class="conteudo__item"><strong>&lt;button&gt;</strong> - define um botão;</li>
+                <li class="conteudo__item"><strong>&lt;img&gt;</strong> - permite inserir uma imagem no seu documento.</li>
+            </ul>
+
+            <h2 class="conteudo__subtitulo">A estrutura básica de um documento HTML</h2>
+
+            <p class="conteudo__paragrafo">Agora que já sabemos como funciona e quais as suas principais tags, vamos entender como é formado a estrutura básica de um documento HTML.</p>
+
+            <p class="conteudo__paragrafo">O documento deve conter uma declaração informando o doctype, que no caso do HTML5, basta declarar com o elemento <strong>&lt;!DOCTYPE html&gt;</strong>. Após isso iniciamos nosso documento com a tag <strong>&lt;html&gt;</strong> que deverá ser fechada ao final do documento com <strong>&lt;/html&gt;</strong>. Posteriormente, nosso documento deverá ter um elemento <strong>&lt;head&gt;</strong> que receberá todas as informações básicas da sua página, como o título, links de elementos externos, metadados, etc. Declaramos então um título para página através da tag <strong>&lt;title&gt;</strong>. Finalmente abrimos então a tag <strong>&lt;body&gt;</strong> que consiste no corpo do nosso documento, onde ficarão todos os elementos que serão renderizados na tela do navegador. Dessa forma, temos a estrutura básica do nosso documento html:</p>
+
+            <pre class="conteudo__codigo">
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+
+         &lt;head&gt;
+
+            &lt;title&gt;&lt;/title&gt;
+
+         &lt;/head&gt;
+
+         &lt;body&gt;
+
+         &lt;/body&gt;
+
+&lt;/html&gt;</pre>
+
+         <p class="conteudo__paragrafo">Para que não ocorram erros de renderização ou incompatibilidade de caracteres, devemos também declarar o padrão de teclado. No Brasil e em boa parte da América Latina, utilizamos o padrão <strong>UTF-8</strong>. Dessa forma, através da tag de metadados <strong>&lt;meta/&gt;</strong>, vamos declarar dentro de um atributo charset que nosso padrão é o UTF-8. Temos assim a estrutura básica de nosso documento HTML:</p>
+
+         <pre class="conteudo__codigo">
+&lt;!DOCTYPE html&gt;
+            
+&lt;html&gt;
+
+      &lt;head&gt;
+
+         &lt;title&gt;&lt;/title&gt;
+         &lt;meta charset="utf-8"/&gt;
+
+      &lt;/head&gt;
+
+      &lt;body&gt;
+
+      &lt;/body&gt;
+
+&lt;/html&gt;</pre>
+
+         <p class="conteudo__paragrafo">Vamos agora aprender um pouco a história do HTML e como evoluiu para se tornar o que é hoje.</p>
+
+         <h2 class="conteudo__subtitulo">Como surgiu o HTML</h2>
+
+         <p class="conteudo__paragrafo">Em 1980, o Físico Britânico Tim Berners-Lee, iniciou um projeto baseado na Marcação de HiperTexto, denominado ENQUIRE. Este projeto foi realizado inicialmente através da linguagem de programação Pascal. Anos mais tarde, em 1889, Tim Berners-Lee e o estudante Robert Cailliau conseguiram implementar a primeira comunicação entre o usuário e servidor através do protocolo HTTP. Com isso, surgia então a World Wide Web (www), a web que conhecemos hoje.</p>
+
+         <p class="conteudo__paragrafo">Com o objetivo de facilitar comunicação e disseminação de documentos entre pesquisadores, ele criou então a linguagem de marcação de hipertexto, o HTML. A sua primeira versão foi publicada em 1991 e foi baseada na SGML, uma linguagem de marcação utilizada para a estruturação de documentos. O SGML já possuía diversas tags que foram herdadas pelo HTML. Contudo, a maior diferença entre essas duas linguagens, é que o HTML implementava a tag &lt;a&gt;, permitindo a ligação de uma página a outra, conhecido como link.  A interligação entre documentos é a base do funcionamento de toda Web.</p>
+
+         <p class="conteudo__paragrafo">A linguagem de marcação de hipertexto ficou bastante conhecida quando começou a ser utilizada para formar a rede pública daquela época. Alguns anos mais tarde, se tornaria a linguagem padrão da internet que conhecemos hoje.</p>
+
+         <h2 class="conteudo__subtitulo">A evolução do HTML</h2>
+         <p class="conteudo__paragrafo">Conforme visto anteriormente, a primeira versão do HTML surgiu no início da década de 90. Entre 1990 e 1995 passou por várias atualizações e modificações em sua estrutura. Até então, quem supervisionava e controlava o padrão da linguagem era o CERN. Desse ano em diante, a entidade que regula os padrões da web,  W3C (The World Wide Web Consortium), passou a supervisionar e controlar a linguagem de marcação de hipertextos, tornando-a uma linguagem padrão da web.</p>
+
+         <p class="conteudo__paragrafo">Em 1993, Dave Raggett propôs uma evolução do padrão, denominada HTML+. Entretanto, tal proposta nunca foi implementada e a primeira versão sucessora só viria a surgir em 1995:</p>
+
+         <h2 class="conteudo__subtitulo">1995 – Versão 2.0</h2>
+
+         <p class="conteudo__paragrafo">Apesar de diversas atualizações e modificações, a primeira versão após a criação do HTML puro só foi surgir em 1995, a versão 2.0. Seu surgimento ocorreu no primeiro evento mundial sobre a Web, o World Wide Web Conference. O seu objetivo era formalizar todas as características do HTML que já eram utilizadas.</p>
+         
+         <h2 class="conteudo__subtitulo">1997 – Versão 3.2</h2>
+         
+         <p class="conteudo__paragrafo">A versão 3.2, lançada em 1997, além de trazer novas funcionalidades à linguagem, corrigiu diversos problemas de compatibilidade da versão 2.0. Foi lançada pelo grupo de trabalho do W3C, fazendo com que ela fosse tratada como prática comum. O HTML 3.2 implementou características como tabelas, applets e texto flutuante ao redor de imagens.</p>
+
+         <h2 class="conteudo__subtitulo">1999 – Versão 4.0.1</h2>
+
+         <p class="conteudo__paragrafo">Em 1999, a versão 4.0.1 foi lançada trazendo a compatibilidade com as suas versões anteriores através de três implementações:</p>
+
+         <ul class="conteudo__lista">
+
+            <li class="conteudo__item"><strong>Scrict</strong> – implementação na qual fica proibida a utilização de elementos obsoletos da linguagem;</li>
+            <li class="conteudo__item"><strong>Transitional</strong> – implementação na qual os elementos obsoletos são permitidos;</li>
+            <li class="conteudo__item"><strong>Frameset</strong> – implementação direcionada para site que usam frames.Acrescentou novas funcionalidades com suporte para opções de multimídias e folhas de estilos. Também foi construído pensando em melhorar as práticas de programação. O HTML4 ocupou lugar de destaque no mundo web por muitos anos e até hoje ainda é utilizado por alguns desenvolvedores da web.</li>
+
+         </ul>
+
+         <h2 class="conteudo__subtitulo">2000 – XHTML 1.0</h2>
+
+         <p class="conteudo__paragrafo">No ano 2000, pouco tempo após incrementar a versão 4.0.1, foi lançada a primeira versão do XHTML, que combinava as vantagens do HTML com as do XML. O XHTML trazia uma sintaxe mais rigorosa e menos ambígua para tornar o HTML mais simples de ser processado.</p>
+
+         <h2 class="conteudo__subtitulo">2004 – a fundação da WHATWG</h2>
+         
+         <p class="conteudo__paragrafo">Em 2004, foi fundado o WHATWG (Web Hypertext Application Technology Working Group) por desenvolvedores de grandes empresas como Mozilla, Apple e Opera. A partir desse momento, teve início o trabalho de criação da nova versão do HTML.</p>
+
+         <h2 class="conteudo__subtitulo">2014 – A grande mudança: a versão 5 do HTML</h2>
+         
+         <p class="conteudo__paragrafo">A versão 5 do HTML foi desenvolvida para aperfeiçoar a experiência da World Wide Web para os desenvolvedores e usuários finais. Ela trouxe grandes avanços para a linguagem. O HTML 5 fornece o suporte de áudio e vídeo em alto nível que, até então, não existia nas versões anteriores sem o uso de plug-ins. Essa nova versão também nasceu com uma proposta marcante: ela não é uma versão final, ou seja, seguirá recebendo mudanças ao longo do tempo.</p>
+
+         <p class="conteudo__paragrafo">Anteriormente, as versões não eram padronizadas para criação de seções comuns e específicas como rodapés, cabeçalhos,  menus, artigos, etc. Com a introdução de tags como &lt;header&gt;, &lt;footer&gt;, &lt;section&gt;, &ltarticle&gt;, &lt;nav&gt;, etc, o HTML5 trouxe uma forma semântica de se trabalhar com a linguagem. Com esse avanço, foi possível aumentar a interatividade sem a necessidade de instalação de plug-ins. É um código pronto para futuros dispositivos, facilitando a reutilização da informação de diferentes maneiras. Portanto, possibilita diversas funcionalidades que antes só eram possíveis com plugins, sem que isso sobrecarregasse o website, mantendo-o leve e rápido.</p>
+
+         <p class="conteudo__paragrafo">Com isso, as novas tags semânticas trouxeram grandes avanços para técnicas de SEO e para a leitura, pois informam ao navegador sobre o significado do conteúdo.</p>
+
+         <h2 class="conteudo__subtitulo">A relação entre HTML, CSS e JavaScript</h2>
+
+         <img src="./assets/img/HTML-CSS-Javascript.jpg" alt="Javascript, CSS e HTML" class="conteudo__img">
+
+         <p class="conteudo__paragrafo">Conforme explicado anteriormente, no inicio do artigo, o <strong>HTML servirá para marcar todos os elementos da nossa página.</strong> Ele funciona como se fosse o esqueleto de uma página. Porém, sozinho o HTML é limitado a essa função, mesmo em sua versão mais atual.</p>
+
+         <p class="conteudo__paragrafo">Sendo assim, podemos definir que uma página web é composta por três camadas. O  <strong>HTML</strong> formará a primeira camada que apresenta o conteúdo ao usuário. O <a href="css.html" class="conteudo__link link--laranja">CSS</a> formará segunda camada que dará forma aos elementos. Finalmente, o <a href="javascript.html" class="conteudo__link link--laranja">Javascript</a> formará a terceira camada que adicionará comportamentos dinâmicos à página.</p>
+
+        </section>
+        <section class="relacionados caixa">
+            <div class="relacionado">
+               <h2 class="relacionado__titulo">Conteudos relacionados</h2>
+               <nav class="relacionado__menu">
+                  <ul class="relacionado__lista">
+                        <li class="relacionado__item"><a class="relacionado__link link--laranja" href="css.html">O que é CSS?</a></li>
+                        <li class="relacionado__item"><a class="relacionado__link link--laranja" href=".javascript.css">O que é Java Script?</a></li>
+                  </ul>
+               </nav>
+            </div>   
+         </section>
+      </main>
+
+      <footer class="rodape">
+         <p class="rodape__paragrafo"></p>Todos os direitos reservados &copy;2021</p>
+      </footer>
+   </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CSS | Worldpédias</title>
+      <script src="./assets/script/voltar.js"></script>
+      <link rel="stylesheet" href="./assets/css/normalize.css">
+      <link rel="stylesheet" href="./assets/css/reset.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./assets/css/grid.css">
+      <link rel="stylesheet" href="./assets/css/container.css">
+      <link rel="stylesheet" href="./assets/css/cabecalho.css">
+      <link rel="stylesheet" href="./assets/css/logo.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu__lista.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu__item.css">
+      <link rel="stylesheet" href="./assets/css/menu/menu__link.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-titulo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-paragrafo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-link.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-subtitulo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-caixa.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-codigo.css">
+      <link rel="stylesheet" href="./assets/css/link--laranja.css">
+      <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+      <link rel="stylesheet" href="./assets/css/rodape/rodape-paragrafo.css">
+      <link rel="stylesheet" href="./assets/css/relacionados.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-titulo.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-menu.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-lista.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-item.css">
+      <link rel="stylesheet" href="./assets/css/relacionado/relacionado-link.css">
+      <link rel="stylesheet" href="./assets/css/caixa.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-lista.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-item.css">
+      <link rel="stylesheet" href="./assets/css/conteudo/conteudo-img.css">
+   </head>
+   <body>
+      <header class="cabecalho">
+         <img src="./assets/img/logos/logo.svg" alt="logo da Worldpédias" class="logo">
+         <nav class="menu">
+            <ul class="menu__lista">
+               <li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+               <li class="menu__item"><a onclick="voltar()" class="menu__link">voltar</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main class="container">
+         <section class="conteudo caixa">
+            <h1 class="conteudo__titulo">CSS</h1>
+            <p class="conteudo__paragrafo">O Cascading Style Sheets (CSS) é uma "folha de estilo" composta por “camadas” e utilizada para definir a apresentação (aparência) em páginas da internet que adotam para o seu desenvolvimento linguagens de marcação (como XML, <a class="conteudo__link link--laranja" href="htmlll.html">HTML</a> e XHTML). O CSS define como serão exibidos os elementos contidos no código de uma página da internet e sua maior vantagem é efetuar a separação entre o formato e o conteúdo de um documento.</p>
+
+            <h2 class="conteudo__subtitulo">Por que o CSS foi criado?</h2>
+            <p class="conteudo__paragrafo">Com a evolução dos recursos de programação as páginas da internet estavam adotando cada vez mais estilos e variações para deixá-las mais elegantes e atrativas para os usuários. Com isto, linguagens de marcação simples como o <a class="conteudo__link link--laranja" href="htmlll.html">HTML</a> , que era destinada para apresentar os conteúdos também precisou ser aprimorada.</p>
+
+            <p class="conteudo__paragrafo">Foram criadas novas tags e atributos de estilo para o <a class="conteudo__link link--laranja" href="htmlll.html">HTML</a> e em resumo ele passou a exercer tanto a função de estruturar o conteúdo quanto de apresentá-lo para o usuário final. Entretanto, isto começou a trazer um problema para os desenvolvedores, pois não havia uma forma de definir, por exemplo, um padrão para todos os cabeçalhos ou conteúdos em diversas páginas. Ou seja, as alterações teriam que ser feitas manualmente, uma a uma.</p>
+
+            <p class="conteudo__paragrafo">A partir destas complicações, nasceu o CSS. Primariamente, foi desenvolvido para habilitar a separação do conteúdo e formato de um documento (na linguagem de formatação utilizada) de sua apresentação, incluindo elementos como cores, formatos de fontes e layout. Esta separação proporcionou uma maior flexibilidade e controle na especificação de como as características serão exibidas, permitiu um compartilhamento de formato e reduziu a repetição no conteúdo estrutural de uma página.</p>
+
+            <div class="conteudo__caixa">
+                <h2 class="conteudo__subtitulo">Exemplo de código em CSS</h2>
+                <pre class="conteudo__codigo">
+#todoform th { 
+background: #000000;
+/* definindo a cor preta para o fundo do título */{
+
+padding:10px; 
+/* afastamento de 10 pixels */
+
+font: bold 20px arial, verdana, helvetica, sans-serif;
+/* Vetras em negrito com 20 px e familia arial, verd....*/
+
+border -bottom: 3px solid #FF9900;
+/*  uma borda inferior solida de 3 pixels na cor laranja */ }</pre>
+            </div>
+
+            <p class="conteudo__paragrafo">Com isto, as linguagens de marcação passaram novamente a exercer sua função de marcar e estruturar o conteúdo de uma página enquanto o CSS encarregou-se da aplicação dos estilos necessários para a aparência dela. Isto é feito por meio da criação de um arquivo externo que contém todas as regras aplicadas e, com isto, é possível fazer alterações de estilo em todas as páginas de um site de forma fácil e rápida.</p>
+
+            <p class="conteudo__paragrafo">O CSS também permite que as mesmas marcações de uma página sejam apresentadas em diferentes estilos, conforme os métodos de renderização (como em uma tela, impressão, via voz, baseadas em dispositivos táteis, etc.). A maioria dos menus em cascata, estilos de cabeçalho e rodapé de páginas da internet, por exemplo, atualmente são desenvolvidos em CSS.</p>
+
+        </section>
+        <section class="relacionados caixa">
+         <div class="relacionado">
+             <h2 class="relacionado__titulo">Conteudos relacionados</h2>
+             <nav class="relacionado__menu">
+                 <ul class="relacionado__lista">
+                     <li class="relacionado__item"><a class="relacionado__link link--laranja" href="htmlll.html">O que é HTML?</a></li>
+                     <li class="relacionado__item"><a class="relacionado__link link--laranja" href="javascript.html">O que é Java Script?</a></li>
+                 </ul>
+             </nav>
+         </div>   
+     </section>
+      </main>
+
+      <footer class="rodape">
+         <p class="rodape__paragrafo"></p>Todos os direitos reservados &copy;2021</p>
+      </footer>
+   </body>
+</html>
