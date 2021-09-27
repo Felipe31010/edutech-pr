@@ -1,0 +1,29 @@
+.navegacao__link {
+    background: #f37f24;
+    border-radius: 40px;
+    box-shadow: 5px 3px 5px 0 #0c0c0c;
+    color: #fdfdfd;
+    display: inline-block;
+    font-weight: 500;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 15rem;
+}
+
+.navegacao__link:hover {
+    opacity: 0.9;
+}
+
+@media screen and (min-width: 0) {
+    .navegacao__link {
+        font-size: 1.500rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navegacao__link {
+        font-size: 2.200rem;
+    }
+}

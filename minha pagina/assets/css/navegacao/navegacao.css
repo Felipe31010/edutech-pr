@@ -1,0 +1,17 @@
+.navegacao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0) {
+   .navegacao {
+        margin-top: 6rem;   
+   } 
+}
+
+@media screen and (min-width: 768px) {
+    .navegacao {
+        margin-top: 9rem;
+    } 
+}

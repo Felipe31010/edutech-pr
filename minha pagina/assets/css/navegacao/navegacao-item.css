@@ -1,0 +1,15 @@
+.navegacao__item:last-child {
+    margin-right: 0;
+}
+
+@media screen and (min-width: 0) {
+    .navegacao__item {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 723px) {
+    .navegacao__item {
+        margin-right: 2rem;
+    }
+}

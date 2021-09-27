@@ -1,0 +1,22 @@
+.navegacao__logo {
+    padding-bottom: 4rem;
+    
+}
+
+@media screen and (min-width: 0){
+    .navegacao__logo {
+        width: 20rem;
+    }
+}
+
+@media screen and (min-width: 723px){
+    .navegacao__logo {
+        width: 30rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .navegacao__logo {
+        width: 45rem;
+    }
+}
