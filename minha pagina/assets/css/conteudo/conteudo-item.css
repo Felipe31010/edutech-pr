@@ -1,0 +1,9 @@
+.conteudo__item {
+    font-size: 1.325rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.conteudo__item:last-child {
+    margin-bottom: 0;
+}

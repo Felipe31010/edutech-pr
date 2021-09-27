@@ -1,0 +1,14 @@
+@media screen and (min-width: 0){
+   .conteudo {
+      padding: 1rem;
+      width: initial;
+   } 
+}
+
+
+ @media screen and (min-width: 992px){
+   .conteudo {
+      padding: 2rem;
+       width: calc(60% - 2rem);
+   } 
+}
