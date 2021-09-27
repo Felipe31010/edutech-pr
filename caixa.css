@@ -1,0 +1,17 @@
+.caixa {
+    background: #fdfdfd;
+}
+
+@media screen and (min-width: 0) {
+    .caixa {
+        border-radius: inherit;
+        box-shadow: inherit;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .caixa {
+        border-radius: 10px;
+        box-shadow: 0px 1px 3px 0 #d9d9d9;
+    }
+}
